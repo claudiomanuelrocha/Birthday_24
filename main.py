@@ -57,7 +57,7 @@ def main():
                 st.image('Rose.png', use_column_width=True)
             elif trip.lower() == a_barcelona.lower():
                 st.write("\u2705 \u2764 5 April - 9 April \u2764")
-                st.image('barcelona_2025.png', use_column_width=True)
+                st.image('barcelona_2025.jpg', use_column_width=True)
             else:
                 st.write("\u274C \U0001F937 \U0001F937 \U0001F937 \U0001F4BC")
 
