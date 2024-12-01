@@ -46,7 +46,7 @@ def main():
     if (complete_sentence.lower() == 'cadbury' and
             name.lower() == 'elena' and
             address.lower() == 'portland' and
-            complete_sentence_0 == 'matcha'):
+            complete_sentence_0.lower() == 'matcha'):
         trip = st.text_input("Your present for 2024 is....")
         if st.button("Confirm"):
             # trip
